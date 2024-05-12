@@ -1,4 +1,7 @@
-![logo](images/logo.svg)
+<!--suppress HtmlDeprecatedAttribute -->
+<p align="center" width="100%">
+    <img alt="logo" src="images/logo.svg" width="50%">
+</p>
 
 ### *Fearlessly feminine.*
 
