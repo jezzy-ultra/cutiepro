@@ -1,13 +1,14 @@
 <!--suppress HtmlDeprecatedAttribute -->
-<p align="center" width="100%">
-    <img alt="logo" src="images/logo.svg" width="50%">
-</p>
+
+<img alt="logo" src="images/logo.svg" align="left" width="72">
+
+# CutiePro Theme — Terminal Schemes
 
 ### *Fearlessly feminine.*
 
 Tired of drab schemes? After failing to find a theme that resonated with me, I decided to make my own. Meet **CutiePro**, a dark pastel theme emphasizing warm colors and extraordinarily cute, girly vibes ♡
 
-This repo contains a collection of color scheme configuration files for various terminals and applications. Also check out the [plugin for JetBrains IDEs](https://github.com/jezziewezzie/CutiePro-IntelliJ/)!
+This repo contains a collection of color scheme configuration files for various terminals and applications. Also check out the **[plugin for JetBrains IDEs](https://github.com/jezziewezzie/CutiePro-IntelliJ/)!**
 
 ![color table](images/color-table.png)
 
