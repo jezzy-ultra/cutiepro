@@ -1,0 +1,26 @@
+{
+  "$schema": "https://github.com/lppedd/idea-conventional-commit/raw/master/src/main/resources/defaults/conventionalcommit.schema.json",
+  "types": {
+    "refactor": {
+      "description": "Changes which neither fix a bug nor add a feature"
+    },
+    "fix": {
+      "description": "Changes which patch a bug"
+    },
+    "feat": {
+      "description": "Changes which introduce a new feature"
+    },
+    "chore": {
+      "description": "Changes which are not user-facing"
+    },
+    "style": {
+      "description": "Changes which do not affect code logic, e.g. whitespaces, formatting, missing semicolons"
+    },
+    "docs": {
+      "description": "Changes which affect documentation"
+    },
+    "revert": {
+      "description": "Changes which revert a previous commit"
+    }
+  }
+}
