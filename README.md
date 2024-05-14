@@ -2,7 +2,7 @@
 
 <img alt="logo" src="images/logo.svg" align="left" width="72">
 
-# CutiePro Theme — Terminal Schemes
+# CutiePro — Terminal Schemes
 
 ### *Fearlessly feminine.*
 
