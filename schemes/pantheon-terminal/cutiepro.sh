@@ -1,7 +1,7 @@
 #!/bin/bash
 dconf load /org/pantheon/terminal/settings/ <<COLORS
 [/]
-name='CutiePro'
+name='cutiepro'
 cursor-color='#efc4cd'
 foreground='#d5d0c9'
 background='rgba(24,24,24,.95)'

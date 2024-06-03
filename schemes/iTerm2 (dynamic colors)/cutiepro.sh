@@ -1,5 +1,5 @@
 #!/bin/sh
-# CutiePro
+# cutiepro
 printf "\033]P0000000\033\\"
 printf "\033]P1f56e7f\033\\"
 printf "\033]P2bec975\033\\"

@@ -1,5 +1,5 @@
 {
-  "name": "CutiePro",
+  "name": "cutiepro",
   "black": "#000000",
   "red": "#f56e7f",
   "green": "#bec975",
@@ -18,6 +18,6 @@
   "brightWhite": "#ffffff",
   "background": "#181818",
   "foreground": "#d5d0c9",
-  "cursorColor": "#efc4cd",
-  "selectionBackground": "#363636"
+  "cursor": "#efc4cd",
+  "selection": "#363636"
 }
