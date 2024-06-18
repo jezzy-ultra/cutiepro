@@ -12,7 +12,7 @@ extraordinarily cute, girly vibes ♡
 
 this repo contains a collection of color scheme configuration files for various terminals and applications. also check out the [plugin for JetBrains IDEs](https://github.com/jezziewezzie/cutiepro-IntelliJ/)!
 
-## palette
+### palette
 
 |                                                      | name                       |    hex    |
 |:----------------------------------------------------:|----------------------------|:---------:|
