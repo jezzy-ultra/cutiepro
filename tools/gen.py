@@ -41,16 +41,15 @@ ZHAO Xudong <986839138@qq.com>
 
 import argparse
 
+from converter import Converter
 from jinja2 import Environment, FileSystemLoader
 from rich.progress import BarColumn, Progress, TextColumn
-
-from converter import Converter
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="A script for generating themes based on a set of schemes and "
-                    "templates. If run with no arguments, everything will be "
-                    "re-generated."
+        "templates. If run with no arguments, everything will be "
+        "re-generated."
     )
 
     parser.add_argument(
@@ -92,8 +91,8 @@ if __name__ == "__main__":
         templates=arguments["template"],
         loader=file_system_loader,
         bar=progress_bar,
-        path_to_iterm_schemes="../schemes/",
-        output_dir="../",
+        path_to_iterm_schemes="../schemes/iTerm2/",
+        output_dir="../schemes/",
     )
 
     converter.run()

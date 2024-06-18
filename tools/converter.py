@@ -73,11 +73,9 @@ class Converter:
                 color_components = plist[color_name]
                 color_hex, rgb = self.calculate_color(color_components)
                 guint16 = self.calculate_color_components_guint16(color_components)
-                hexchat = " ".join(
-                    [
-                        color_hex[i: i + 2] * 2 for i in range(0, len(color_hex), 2)
-                    ]
-                )
+                hexchat = " ".join([
+                    color_hex[i : i + 2] * 2 for i in range(0, len(color_hex), 2)
+                ])
                 colors_dict[color_name.replace(" ", "_")] = {
                     "hex": color_hex,
                     "rgb": ",".join(str(x) for x in rgb),
