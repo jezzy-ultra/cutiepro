@@ -4,11 +4,11 @@
 !
 *.foreground:  #d5d0c9
 *.background:  #181818
-*.cursorColor: #efc4cd
+*.cursorColor: #e5a1a3
 !
 ! Black
 *.color0:      #000000
-*.color8:      #88847f
+*.color8:      #2e2a27
 !
 ! Red
 *.color1:      #f56e7f
@@ -20,7 +20,7 @@
 !
 ! Yellow
 *.color3:      #f58669
-*.color11:     #f1bb79
+*.color11:     #f3b061
 !
 ! Blue
 *.color4:      #42d9c5
@@ -28,15 +28,15 @@
 !
 ! Magenta
 *.color5:      #d286b7
-*.color13:     #b294bb
+*.color13:     #c3a6cb
 !
 ! Cyan
 *.color6:      #37cb8a
-*.color14:     #9dccbb
+*.color14:     #9ed7a8
 !
 ! White
-*.color7:      #d5c3c3
-*.color15:     #ffffff
+*.color7:      #88847f
+*.color15:     #d7c3ba
 !
 ! Bold, Italic, Underline
 *.colorBD:     #d5d0c9

@@ -1,17 +1,17 @@
 # Colors (cutiepro)
 
 [colors.bright]
-black = '#88847f'
+black = '#2e2a27'
 blue = '#80c5de'
-cyan = '#9dccbb'
+cyan = '#9ed7a8'
 green = '#e8d6a7'
-magenta = '#b294bb'
+magenta = '#c3a6cb'
 red = '#e5a1a3'
-white = '#ffffff'
-yellow = '#f1bb79'
+white = '#d7c3ba'
+yellow = '#f3b061'
 
 [colors.cursor]
-cursor = '#efc4cd'
+cursor = '#e5a1a3'
 text = '#181818'
 
 [colors.normal]
@@ -21,7 +21,7 @@ cyan = '#37cb8a'
 green = '#bec975'
 magenta = '#d286b7'
 red = '#f56e7f'
-white = '#d5c3c3'
+white = '#88847f'
 yellow = '#f58669'
 
 [colors.primary]
@@ -29,5 +29,5 @@ background = '#181818'
 foreground = '#d5d0c9'
 
 [colors.selection]
-background = '#363636'
-text = '#d5d0c9'
+background = '#383838'
+text = '#d7c3ba'
