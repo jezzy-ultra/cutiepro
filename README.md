@@ -4,15 +4,15 @@
 
 # cutiepro — Terminal Schemes
 
-### *Fearlessly feminine.*
+## *Fearlessly feminine.*
 
 Tired of drab schemes? After failing to find a theme that resonated with me, I decided
 to make my own. Meet **cutiepro**, a dark pastel theme emphasizing warm colors and
 extraordinarily cute, girly vibes ♡
 
 This repo contains a collection of color scheme configuration files for various
-terminals and applications. Also check out the *
-*[plugin for JetBrains IDEs](https://github.com/jezziewezzie/cutiepro-IntelliJ/)!**
+terminals and applications. Also check out
+the [plugin for JetBrains IDEs](https://github.com/jezziewezzie/cutiepro-IntelliJ/)!
 
 ## Palette
 
@@ -38,7 +38,7 @@ terminals and applications. Also check out the *
 |     ![foreground](assets/circles/foreground.svg)     | foreground                 | `#d5d0c9` |
 |      ![selection](assets/circles/selection.svg)      | selection                  | `#383838` |
 
-### Supported apps
+## Supported apps
 - [Alacritty](https://github.com/alacritty/alacritty/)
 - [Dynamic Colors](https://github.com/patelka2211/dynamic-colors/)
 - [electerm](https://github.com/electerm/electerm/)
