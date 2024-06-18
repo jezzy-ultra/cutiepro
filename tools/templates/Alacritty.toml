@@ -28,8 +28,8 @@ yellow = '#{{ Ansi_3_Color.hex }}'
 background = '#{{ Background_Color.hex }}'
 foreground = '#{{ Foreground_Color.hex }}'
 
-{% if Selection_Color and Selected_Text_Color % }
+{%if Selection_Color and Selected_Text_Color %}
 [colors.selection]
 background = '#{{ Selection_Color.hex }}'
 text = '#{{ Selected_Text_Color.hex }}'
-{% endif % }
+{% endif %}

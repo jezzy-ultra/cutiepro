@@ -1,15 +1,15 @@
 [colors]
 background = '#{{ Background_Color.hex }}'
 foreground = '#{{ Foreground_Color.hex }}'
-{% if Selection_Color % }
+{% if Selection_Color %}
 selection-background = '#{{ Selection_Color.hex }}'
-{% endif % }
-{ % if Selected_Text_Color % }
+{% endif %}
+{% if Selected_Text_Color %}
 selection-foreground = '#{{ Selected_Text_Color.hex }}'
-{% endif % }
-{ % if Cursor_Color % }
+{% endif %}
+{% if Cursor_Color %}
 cursor = '#{{ Cursor_Color.hex }}'
-{% endif % }
+{% endif %}
 black = '#{{ Ansi_0_Color.hex }}'
 red = '#{{ Ansi_1_Color.hex }}'
 green = '#{{ Ansi_2_Color.hex }}'
