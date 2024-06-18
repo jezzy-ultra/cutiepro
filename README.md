@@ -1,5 +1,4 @@
 <!--suppress HtmlDeprecatedAttribute -->
-
 <img alt="logo" src="assets/logo.svg" align="left" width="72">
 
 # cutiepro theme
