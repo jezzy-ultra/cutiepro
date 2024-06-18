@@ -1,6 +1,6 @@
 <!--suppress HtmlDeprecatedAttribute -->
 
-<img alt="logo" src="images/logo.svg" align="left" width="72">
+<img alt="logo" src="assets/logo.svg" align="left" width="72">
 
 # cutiepro — Terminal Schemes
 
