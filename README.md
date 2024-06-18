@@ -14,7 +14,29 @@ This repo contains a collection of color scheme configuration files for various
 terminals and applications. Also check out the *
 *[plugin for JetBrains IDEs](https://github.com/jezziewezzie/cutiepro-IntelliJ/)!**
 
-![color table](images/color-table.png)
+## Palette
+
+|                                                      | name                       |    hex    |
+|:----------------------------------------------------:|----------------------------|:---------:|
+|          ![black](assets/circles/black.svg)          | `Ansi 0`  — black          | `#000000` |
+|            ![red](assets/circles/red.svg)            | `Ansi 1`  — red            | `#f56e7f` |
+|          ![green](assets/circles/green.svg)          | `Ansi 2`  — green          | `#bec975` |
+|         ![yellow](assets/circles/yellow.svg)         | `Ansi 3`  — yellow         | `#f58669` |
+|           ![blue](assets/circles/blue.svg)           | `Ansi 4`  — blue           | `#42d9c5` |
+|        ![magenta](assets/circles/magenta.svg)        | `Ansi 5`  — magenta        | `#d286b7` |
+|           ![cyan](assets/circles/cyan.svg)           | `Ansi 6`  — cyan           | `#37cb8a` |
+|          ![white](assets/circles/white.svg)          | `Ansi 7`  — white          | `#88847f` |
+|   ![bright black](assets/circles/bright-black.svg)   | `Ansi 8`  — bright black   | `#2e2a27` |
+|     ![bright red](assets/circles/bright-red.svg)     | `Ansi 9`  — bright red     | `#e5a1a3` |
+|   ![bright green](assets/circles/bright-green.svg)   | `Ansi 10` — bright green   | `#e8d6a7` |
+|  ![bright yellow](assets/circles/bright-yellow.svg)  | `Ansi 11` — bright yellow  | `#f3b061` |
+|    ![bright blue](assets/circles/bright-blue.svg)    | `Ansi 12` — bright blue    | `#80c5de` |
+| ![bright magenta](assets/circles/bright-magenta.svg) | `Ansi 13` — bright magenta | `#c3a6cb` |
+|    ![bright cyan](assets/circles/bright-cyan.svg)    | `Ansi 14` — bright cyan    | `#9ed7a8` |
+|   ![bright white](assets/circles/bright-white.svg)   | `Ansi 15` — bright white   | `#d7c3ba` |
+|     ![background](assets/circles/background.svg)     | background                 | `#181818` |
+|     ![foreground](assets/circles/foreground.svg)     | foreground                 | `#d5d0c9` |
+|      ![selection](assets/circles/selection.svg)      | selection                  | `#383838` |
 
 ### Supported apps
 - [Alacritty](https://github.com/alacritty/alacritty/)
