@@ -2,19 +2,17 @@
 
 <img alt="logo" src="assets/logo.svg" align="left" width="72">
 
-# cutiepro — Terminal Schemes
+# cutiepro theme
 
-## *Fearlessly feminine.*
+## *fearlessly feminine*
 
-Tired of drab schemes? After failing to find a theme that resonated with me, I decided
-to make my own. Meet **cutiepro**, a dark pastel theme emphasizing warm colors and
+tired of drab schemes? after failing to find a theme that resonated with me, I decided
+to make my own. meet **cutiepro**, a dark pastel theme emphasizing warm colors and
 extraordinarily cute, girly vibes ♡
 
-This repo contains a collection of color scheme configuration files for various
-terminals and applications. Also check out
-the [plugin for JetBrains IDEs](https://github.com/jezziewezzie/cutiepro-IntelliJ/)!
+this repo contains a collection of color scheme configuration files for various terminals and applications. also check out the [plugin for JetBrains IDEs](https://github.com/jezziewezzie/cutiepro-IntelliJ/)!
 
-## Palette
+## palette
 
 |                                                      | name                       |    hex    |
 |:----------------------------------------------------:|----------------------------|:---------:|
@@ -38,7 +36,7 @@ the [plugin for JetBrains IDEs](https://github.com/jezziewezzie/cutiepro-Intelli
 |     ![foreground](assets/circles/foreground.svg)     | foreground                 | `#d5d0c9` |
 |      ![selection](assets/circles/selection.svg)      | selection                  | `#383838` |
 
-## Supported apps
+## supported apps
 - [Alacritty](https://github.com/alacritty/alacritty/)
 - [Dynamic Colors](https://github.com/patelka2211/dynamic-colors/)
 - [electerm](https://github.com/electerm/electerm/)
