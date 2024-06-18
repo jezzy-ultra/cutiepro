@@ -4,114 +4,114 @@
   "colors": [
     {
       "name": "Foreground",
-      "color": "#d5d0c9",
+      "color": "#{{ Foreground_Color.hex }}",
       "terminalMapping": "foreground"
     },
     {
       "name": "BoldForeground",
-      "color": "#d5d0c9",
+      "color": "#{{ Bold_Color.hex }}",
       "terminalMapping": "boldforeground"
     },
     {
       "name": "Background",
-      "color": "#181818",
+      "color": "#{{ Background_Color.hex }}",
       "terminalMapping": "background"
     },
     {
       "name": "BoldBackground",
-      "color": "#181818",
+      "color": "#{{ Background_Color.hex }}",
       "terminalMapping": "boldbackground"
     },
     {
       "name": "CursorForeground",
-      "color": "#181818",
+      "color": "#{{ Cursor_Text_Color.hex }}",
       "terminalMapping": "cursorForeground"
     },
     {
       "name": "CursorBackground",
-      "color": "#efc4cd",
+      "color": "#{{ Cursor_Color.hex }}",
       "terminalMapping": "cursorBackground"
     },
     {
       "name": "Black",
-      "color": "#000000",
+      "color": "#{{ Ansi_0_Color.hex }}",
       "terminalMapping": "ansiBlack"
     },
     {
       "name": "Red",
-      "color": "#f56e7f",
+      "color": "#{{ Ansi_1_Color.hex }}",
       "terminalMapping": "ansiRed"
     },
     {
       "name": "Green",
-      "color": "#bec975",
+      "color": "#{{ Ansi_2_Color.hex }}",
       "terminalMapping": "ansiGreen"
     },
     {
       "name": "Yellow",
-      "color": "#f58669",
+      "color": "#{{ Ansi_3_Color.hex }}",
       "terminalMapping": "ansiYellow"
     },
     {
       "name": "Blue",
-      "color": "#42d9c5",
+      "color": "#{{ Ansi_4_Color.hex }}",
       "terminalMapping": "ansiBlue"
     },
     {
       "name": "Magenta",
-      "color": "#d286b7",
+      "color": "#{{ Ansi_5_Color.hex }}",
       "terminalMapping": "ansiMagenta"
     },
     {
       "name": "Cyan",
-      "color": "#37cb8a",
+      "color": "#{{ Ansi_6_Color.hex }}",
       "terminalMapping": "ansiCyan"
     },
     {
       "name": "White",
-      "color": "#d5c3c3",
+      "color": "#{{ Ansi_7_Color.hex }}",
       "terminalMapping": "ansiWhite"
     },
     {
       "name": "BrightBlack",
-      "color": "#88847f",
+      "color": "#{{ Ansi_8_Color.hex }}",
       "terminalMapping": "ansiBrightBlack"
     },
     {
       "name": "BrightRed",
-      "color": "#e5a1a3",
+      "color": "#{{ Ansi_9_Color.hex }}",
       "terminalMapping": "ansiBrightRed"
     },
     {
       "name": "BrightGreen",
-      "color": "#e8d6a7",
+      "color": "#{{ Ansi_10_Color.hex }}",
       "terminalMapping": "ansiBrightGreen"
     },
     {
       "name": "BrightYellow",
-      "color": "#f1bb79",
+      "color": "#{{ Ansi_11_Color.hex }}",
       "terminalMapping": "ansiBrightYellow"
     },
     {
       "name": "BrightBlue",
-      "color": "#80c5de",
+      "color": "#{{ Ansi_12_Color.hex }}",
       "terminalMapping": "ansiBrightBlue"
     },
     {
       "name": "BrightMagenta",
-      "color": "#b294bb",
+      "color": "#{{ Ansi_13_Color.hex }}",
       "terminalMapping": "ansiBrightMagenta"
     },
     {
       "name": "BrightCyan",
-      "color": "#9dccbb",
+      "color": "#{{ Ansi_14_Color.hex }}",
       "terminalMapping": "ansiBrightCyan"
     },
     {
       "name": "BrightWhite",
-      "color": "#ffffff",
+      "color": "#{{ Ansi_15_Color.hex }}",
       "terminalMapping": "ansiBrightWhite"
     }
   ],
-  "paletteName": "cutiepro"
+  "paletteName": "{{ scheme_name }}"
 }
