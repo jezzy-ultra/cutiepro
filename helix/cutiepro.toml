@@ -2,35 +2,70 @@
 
 "type" = "salmon"
 "type.builtin" = { fg = "salmon", modifiers = ["bold"] }
+# "type.enum"
 "type.enum.variant" = "cherry_blossom"
 
 "constructor" = "pistachio"
 
 "constant" = "sky"
+# "constant.builtin"
+# "constant.builtin.boolean"
 "constant.character" = "cherry_blossom"
 "constant.character.escape" = "sky"
+# "constant.numeric"
+# "constant.numeric.integer"
+# "constant.numeric.float"
 
 "string" = "sour_apple"
 "string.regexp" = "lilac"
 "string.special" = "barbie"
+# "string.special.path"
+# "string.special.url"
 "string.special.symbol" = "rose"
 
 "comment" = "elephant"
+# "comment.line"
+# "comment.line.documentation"
+# "comment.block"
+# "comment.block.documentation"
+# "comment.unused"
 
 "variable" = "cherry_blossom"
 "variable.builtin" = { fg = "cherry_blossom", modifiers = ["bold"] }
+# "variable.parameter"
+# "variable.other"
+# "variable.other.member"
+# "variable.other.member.private"
 
 "label" = "pistachio"
 
 "punctuation" = "honeycomb"
+# "punctuation.delimiter"
+# "punctuation.bracket"
 "punctuation.special" = "barbie"
 
 "keyword" = "rose"
+# "keyword.control"
+# "keyword.control.conditional"
+# "keyword.control.repeat"
+# "keyword.control.import"
+# "keyword.control.return"
+# "keyword.control.exception"
+# "keyword.operator"
+# "keyword.directive"
+# "keyword.function"
+# "keyword.storage"
+# "keyword.storage.type"
+# "keyword.storage.modifier"
 
 "operator" = "lilac"
 
 "function" = "lilac"
 "function.builtin" = { fg = "lilac", modifiers = ["bold"] }
+# "function.method"
+# "function.method.private"
+# "function.macro"
+# "function.special"
 
 "tag" = "honeycomb"
 "tag.builtin" = { fg = "honeycomb", modifiers = ["bold"] }
@@ -39,45 +74,88 @@
 
 "special" = "barbie"
 
+# "markup"
+# "markup.normal"
+# "markup.normal.completion"
+# "markup.normal.hover"
 "markup.heading" = { fg = "cherry_blossom", underline = { color = "cherry_blossom", style = "dashed" } }
+# "markup.heading.marker"
+# "markup.heading.1"
+# "markup.heading.2"
+# "markup.heading.3"
+# "markup.heading.4"
+# "markup.heading.5"
+# "markup.heading.6"
+# "markup.heading.completion"
+# "markup.heading.hover"
 "markup.list" = "sky"
+# "markup.list.unnumbered"
+# "markup.list.numbered"
+# "markup.list.checked"
+# "markup.list.unchecked"
 "markup.bold" = { fg = "honeycomb", modifiers = ["bold"] }
 "markup.italic" = { fg = "honeycomb", modifiers = ["italic"] }
 "markup.strikethrough" = { fg = "honeycomb", modifiers = ["crossed_out"] }
+# "markup.link"
 "markup.link.url" = { fg = "barbie", underline = { color = "barbie", style = "line" } }
 "markup.link.label" = "sour_apple"
 "markup.link.text" = "creamsicle"
 "markup.quote" = "lilac"
 "markup.raw" = "cherry"
+# "markup.raw.inline"
+# "markup.raw.inline.completion"
+# "markup.raw.inline.hover"
+# "markup.raw.block"
 
+# "diff"
 "diff.plus" = "sour_apple"
+# "diff.plus.gutter"
 "diff.minus" = "rose"
+# "diff.minus.gutter"
 "diff.delta" = "sky"
 "diff.delta.moved" = "lilac"
+# "diff.delta.conflict"
+# "diff.delta.gutter"
 
 "ui.background" = { bg = "blackboard" }
 "ui.background.separator" = "cherry_blossom"
 
 "ui.cursor" = { modifiers = ["reversed"] }
+# "ui.cursor.normal"
+# "ui.cursor.insert"
+# "ui.cursor.select"
 "ui.cursor.match" = { modifiers = ["bold"], underline.style = "line" }
 # "ui.cursor.primary" = { modifiers = ["slow_blink"] }
+# "ui.cursor.primary.normal"
+# "ui.cursor.primary.insert"
+# "ui.cursor.primary.select"
 
-"ui.debug" = "barbie"
+"ui.debug.breakpoint" = "barbie"
+"ui.debug.active" = "barbie"
+
+# "ui.gutter"
+# "ui.gutter.selected"
 
 "ui.linenr" = "elephant"
 "ui.linenr.selected" = "cherry_blossom"
 
 "ui.statusline" = { bg = "noir", fg = "chalk" }
+# "ui.statusline.inactive"
 "ui.statusline.normal" = { bg = "cherry_blossom", fg = "blackboard" }
 "ui.statusline.insert" = { bg = "sour_apple", fg = "blackboard" }
 "ui.statusline.select" = { bg = "lilac", fg = "blackboard" }
-
 "ui.statusline.separator" = { modifiers = ["bold"] }
 
 "ui.bufferline" = { fg = "elephant" }
 "ui.bufferline.active" = { fg = "cherry_blossom", underline = { color = "cherry_blossom", style = "line" } }
+# "ui.bufferline.background"
 
 "ui.popup" = { bg = "noir" }
+# "ui.popup.info"
+
+# "ui.picker.header"
+# "ui.picker.header.column"
+# "ui.picker.header.column.active"
 
 "ui.window" = "cherry_blossom"
 
@@ -93,6 +171,8 @@
 "ui.virtual.whitespace" = "elephant"
 "ui.virtual.indent-guide" = "elephant"
 "ui.virtual.inlay-hint" = { fg = "chalk", modifiers = ["dim"] }
+# "ui.virtual.inlay-hint.parameter"
+# "ui.virtual.inlay-hint.type"
 "ui.virtual.wrap" = "elephant"
 "ui.virtual.jump-label" = "cherry_blossom"
 
@@ -104,10 +184,13 @@
 "ui.selection.primary" = { bg = "tamarind" }
 
 "ui.highlight" = { bg = "tamarind" }
+# "ui.highlight.frameline"
 
 "ui.cursorline.primary" = { bg = "metal" }
+# "ui.cursorline.secondary"
 
 "ui.cursorcolumn.primary" = { bg = "metal" }
+# "ui.cursorcolumn.secondary"
 
 "warning" = "creamsicle"
 "error" = "rose"
