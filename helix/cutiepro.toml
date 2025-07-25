@@ -180,10 +180,10 @@
 "ui.menu.selected" = { underline = { color = "cherry_blossom", style = "line" } }
 "ui.menu.scroll" = "cherry_blossom"
 
-"ui.selection" = { bg = "liquorice" }
-"ui.selection.primary" = { bg = "tamarind" }
+"ui.selection" = { bg = "noir" }
+"ui.selection.primary" = { bg = "tumbleweed" }
 
-"ui.highlight" = { bg = "tamarind" }
+"ui.highlight" = { bg = "tumbleweed" }
 # "ui.highlight.frameline"
 
 "ui.cursorline.primary" = { bg = "metal" }
@@ -209,11 +209,10 @@
 
 [palette]
 # shades of gray and supporting colors
-noir = "#2e2a27"
 blackboard = "#181716"
 metal = "#242628"
-tamarind = "#381616"
-liquorice = "#383838"
+noir = "#2e2a27"
+tumbleweed = "#382a18"
 elephant = "#88847f"
 chalk = "#d5d0c9"
 
