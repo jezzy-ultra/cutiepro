@@ -100,7 +100,7 @@
 "ui.menu.selected" = { underline = { color = "cherry_blossom", style = "line" } }
 "ui.menu.scroll" = "cherry_blossom"
 
-"ui.selection" = "liquorice"
+"ui.selection" = { bg = "liquorice" }
 "ui.selection.primary" = { bg = "tamarind" }
 
 "ui.highlight" = { bg = "tamarind" }
