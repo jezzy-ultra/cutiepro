@@ -209,8 +209,8 @@
 
 [palette]
 # shades of gray and supporting colors
-blackboard = "#181818"
 noir = "#2e2a27"
+blackboard = "#181716"
 metal = "#242628"
 tamarind = "#381616"
 liquorice = "#383838"
