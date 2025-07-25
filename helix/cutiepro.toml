@@ -67,9 +67,10 @@
 "ui.linenr" = "elephant"
 "ui.linenr.selected" = "cherry_blossom"
 
-"ui.statusline" = { bg = "cherry_blossom", fg = "blackboard" }
-"ui.statusline.insert" = { bg = "sour_apple" }
-"ui.statusline.select" = { bg = "lilac" }
+"ui.statusline" = { bg = "noir", fg = "chalk" }
+"ui.statusline.normal" = { bg = "cherry_blossom", fg = "blackboard" }
+"ui.statusline.insert" = { bg = "sour_apple", fg = "blackboard" }
+"ui.statusline.select" = { bg = "lilac", fg = "blackboard" }
 
 "ui.statusline.separator" = { modifiers = ["bold"] }
 
