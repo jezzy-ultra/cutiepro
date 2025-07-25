@@ -143,7 +143,7 @@
 # "ui.statusline.inactive"
 "ui.statusline.normal" = { bg = "cherry_blossom", fg = "blackboard" }
 "ui.statusline.insert" = { bg = "sour_apple", fg = "blackboard" }
-"ui.statusline.select" = { bg = "lilac", fg = "blackboard" }
+"ui.statusline.select" = { bg = "sky", fg = "blackboard" }
 "ui.statusline.separator" = { modifiers = ["bold"] }
 
 "ui.bufferline" = { fg = "elephant" }
