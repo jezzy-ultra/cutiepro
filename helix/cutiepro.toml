@@ -83,7 +83,7 @@
 "ui.help" = { bg = "dark_moon" }
 
 "ui.text" = "chalk"
-"ui.text.focus" = { bg = "gunmetal" }
+"ui.text.focus" = { bg = "metal" }
 "ui.text.inactive" = { modifiers = ["dim"] }
 "ui.text.info" = "cherry_blossom"
 "ui.text.directory" = "creamsicle"
@@ -104,9 +104,9 @@
 
 "ui.highlight" = { bg = "tamarind" }
 
-"ui.cursorline.primary" = { bg = "gunmetal" }
+"ui.cursorline.primary" = { bg = "metal" }
 
-"ui.cursorcolumn.primary" = { bg = "gunmetal" }
+"ui.cursorcolumn.primary" = { bg = "metal" }
 
 "warning" = "creamsicle"
 "error" = "rose"
@@ -127,7 +127,7 @@
 # shades of gray and supporting colors
 blackboard = "#131211"
 dark_moon = "#181818"
-gunmetal = "#242628"
+metal = "#242628"
 tamarind = "#381616"
 liquorice = "#383838"
 elephant = "#88847f"
