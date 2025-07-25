@@ -148,7 +148,7 @@
 
 "ui.bufferline" = { fg = "elephant" }
 "ui.bufferline.active" = { fg = "cherry_blossom", underline = { color = "cherry_blossom", style = "line" } }
-# "ui.bufferline.background"
+"ui.bufferline.background" = { bg = "blackboard" }
 
 "ui.popup" = { bg = "noir" }
 # "ui.popup.info"
