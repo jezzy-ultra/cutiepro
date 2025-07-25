@@ -76,11 +76,11 @@
 "ui.bufferline" = { fg = "elephant" }
 "ui.bufferline.active" = { fg = "cherry_blossom", underline = { color = "cherry_blossom", style = "line" } }
 
-"ui.popup" = { bg = "dark_moon" }
+"ui.popup" = { bg = "noir" }
 
 "ui.window" = "cherry_blossom"
 
-"ui.help" = { bg = "dark_moon" }
+"ui.help" = { bg = "noir" }
 
 "ui.text" = "chalk"
 "ui.text.focus" = { bg = "metal" }
@@ -95,7 +95,7 @@
 "ui.virtual.wrap" = "elephant"
 "ui.virtual.jump-label" = "cherry_blossom"
 
-"ui.menu" = { bg = "dark_moon" }
+"ui.menu" = { bg = "noir" }
 "ui.menu.selected" = { underline = { color = "cherry_blossom", style = "line" } }
 "ui.menu.scroll" = "cherry_blossom"
 
@@ -126,7 +126,7 @@
 [palette]
 # shades of gray and supporting colors
 blackboard = "#131211"
-dark_moon = "#181818"
+noir = "#2e2a27"
 metal = "#242628"
 tamarind = "#381616"
 liquorice = "#383838"
