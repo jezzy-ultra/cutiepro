@@ -1,0 +1,146 @@
+"attribute" = "creamsicle"
+
+"type" = "salmon"
+"type.builtin" = { fg = "salmon", modifiers = ["bold"] }
+"type.enum.variant" = "cherry_blossom"
+
+"constructor" = "pistachio"
+
+"constant" = "sky"
+"constant.character" = "cherry_blossom"
+"constant.character.escape" = "sky"
+
+"string" = "sour_apple"
+"string.regexp" = "lilac"
+"string.special" = "barbie"
+"string.special.symbol" = "rose"
+
+"comment" = "elephant"
+
+"variable" = "cherry_blossom"
+"variable.builtin" = { fg = "cherry_blossom", modifiers = ["bold"] }
+
+"label" = "pistachio"
+
+"punctuation" = "honeycomb"
+"punctuation.special" = "barbie"
+
+"keyword" = "rose"
+
+"operator" = "lilac"
+
+"function" = "lilac"
+"function.builtin" = { fg = "lilac", modifiers = ["bold"] }
+
+"tag" = "honeycomb"
+"tag.builtin" = { fg = "honeycomb", modifiers = ["bold"] }
+
+"namespace" = { fg = "creamsicle", modifiers = ["bold"] }
+
+"special" = "barbie"
+
+"markup.heading" = { fg = "cherry_blossom", underline = { color = "cherry_blossom", style = "dashed" } }
+"markup.list" = "sky"
+"markup.bold" = { fg = "honeycomb", modifiers = ["bold"] }
+"markup.italic" = { fg = "honeycomb", modifiers = ["italic"] }
+"markup.strikethrough" = { fg = "honeycomb", modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "barbie", underline = { color = "barbie", style = "line" } }
+"markup.link.label" = "sour_apple"
+"markup.link.text" = "creamsicle"
+"markup.quote" = "lilac"
+"markup.raw" = "cherry"
+
+"diff.plus" = "sour_apple"
+"diff.minus" = "rose"
+"diff.delta" = "sky"
+"diff.delta.moved" = "lilac"
+
+"ui.background" = "blackboard"
+"ui.background.separator" = "cherry_blossom"
+
+"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursor.match" = { modifiers = ["bold"], underline.style = "line" }
+# "ui.cursor.primary" = { modifiers = ["slow_blink"] }
+
+"ui.debug" = "barbie"
+
+"ui.linenr" = "elephant"
+"ui.linenr.selected" = "cherry_blossom"
+
+"ui.statusline" = { bg = "cherry_blossom", fg = "blackboard" }
+"ui.statusline.insert" = { bg = "sour_apple" }
+"ui.statusline.select" = { bg = "lilac" }
+
+"ui.statusline.separator" = { modifiers = ["bold"] }
+
+"ui.bufferline" = { fg = "elephant" }
+"ui.bufferline.active" = { fg = "cherry_blossom", underline = { color = "cherry_blossom", style = "line" } }
+
+"ui.popup" = { bg = "dark_moon" }
+
+"ui.window" = "cherry_blossom"
+
+"ui.help" = { bg = "dark_moon" }
+
+"ui.text" = "chalk"
+"ui.text.focus" = { bg = "gunmetal" }
+"ui.text.inactive" = { modifiers = ["dim"] }
+"ui.text.info" = "cherry_blossom"
+"ui.text.directory" = "creamsicle"
+
+"ui.virtual.ruler" = { fg = "rose", modifiers = ["dim"] }
+"ui.virtual.whitespace" = "elephant"
+"ui.virtual.indent-guide" = "elephant"
+"ui.virtual.inlay-hint" = { fg = "chalk", modifiers = ["dim"] }
+"ui.virtual.wrap" = "elephant"
+"ui.virtual.jump-label" = "cherry_blossom"
+
+"ui.menu" = { bg = "dark_moon" }
+"ui.menu.selected" = { underline = { color = "cherry_blossom", style = "line" } }
+"ui.menu.scroll" = "cherry_blossom"
+
+"ui.selection" = "liquorice"
+"ui.selection.primary" = { bg = "tamarind" }
+
+"ui.highlight" = { bg = "tamarind" }
+
+"ui.cursorline.primary" = { bg = "gunmetal" }
+
+"ui.cursorcolumn.primary" = { bg = "gunmetal" }
+
+"warning" = "creamsicle"
+"error" = "rose"
+"info" = "lilac"
+"hint" = "chalk"
+
+"diagnostic" = { underline = { color = "chalk", style = "double_line" } }
+"diagnostic.hint" = { underline = { color = "chalk", style = "curl" } }
+"diagnostic.info" = { underline = { color = "lilac", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "creamsicle", style = "curl" } }
+"diagnostic.error" = { underline = { color = "rose", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+"tabstop" = { modifiers = ["italic"] }
+
+[palette]
+# shades of gray and supporting colors
+blackboard = "#131211"
+dark_moon = "#181818"
+gunmetal = "#242628"
+tamarind = "#381616"
+liquorice = "#383838"
+elephant = "#88847f"
+chalk = "#d5d0c9"
+
+# accent colors
+rose = "#f56e7f"
+cherry_blossom = "#e5a1a3"
+barbie = "#f568b2"
+lilac = "#c3a6cb"
+sky = "#80c5de"
+pistachio = "#9ed7a8"
+sour_apple = "#bec975"
+honeycomb = "#e8d6a7"
+creamsicle = "#f3b061"
+salmon = "#f58669"
