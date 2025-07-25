@@ -55,7 +55,7 @@
 "diff.delta" = "sky"
 "diff.delta.moved" = "lilac"
 
-"ui.background" = "blackboard"
+"ui.background" = { bg = "blackboard" }
 "ui.background.separator" = "cherry_blossom"
 
 "ui.cursor" = { modifiers = ["reversed"] }
