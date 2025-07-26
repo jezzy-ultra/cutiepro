@@ -124,7 +124,7 @@
 # "ui.cursor.normal"
 # "ui.cursor.insert"
 # "ui.cursor.select"
-"ui.cursor.match" = { fg = "gold", modifiers = ["bold"], underline.style = "line" }
+"ui.cursor.match" = { fg = "lemon", modifiers = ["bold"], underline.style = "line" }
 "ui.cursor.primary" = { fg = "blackboard" }
 "ui.cursor.primary.normal" = { bg = "cherry_blossom", fg = "blackboard" }
 "ui.cursor.primary.insert" = { bg = "sour_apple", fg = "blackboard" }
@@ -174,7 +174,7 @@
 # "ui.virtual.inlay-hint.parameter"
 # "ui.virtual.inlay-hint.type"
 "ui.virtual.wrap" = "elephant"
-"ui.virtual.jump-label" = { fg = "gold", modifiers = ["bold", "italic"] }
+"ui.virtual.jump-label" = { fg = "lemon", modifiers = ["bold", "italic"] }
 
 "ui.menu" = { bg = "film" }
 "ui.menu.selected" = { fg = "cherry_blossom", modifiers = ["bold"], underline.style = "line" }
@@ -212,19 +212,17 @@
 blackboard = "#181716"
 metal = "#242628"
 film = "#2e2a27"
-ocean = "#0f3f4e"
 liquorice = "#383838"
+ocean = "#0f3f4e"
 elephant = "#88847f"
 chalk = "#d5d0c9"
-gold = "#ffef43"
+lemon = "#ffef43"
 
 # accent colors
 rose = "#f56e7f"
 cherry_blossom = "#e5a1a3"
-# barbie = "#f568b2"
-# barbie = "#e383c3"
-barbie = "#f57bcc"
-lilac = "#c3a6cb"
+barbie = "#f57bf2"
+lilac = "#c69ed1"
 sky = "#80c5de"
 pistachio = "#9ed7b5"
 sour_apple = "#bec975"
