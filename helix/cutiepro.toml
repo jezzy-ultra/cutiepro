@@ -19,8 +19,8 @@
 "string" = "sour_apple"
 "string.regexp" = "lilac"
 "string.special" = "pistachio"
-# "string.special.path"
-# "string.special.url"
+"string.special.path" = { fg = "salmon", underline.style = "line" }
+"string.special.url" = { fg = "salmon", underline.style = "line" }
 # "string.special.symbol" = "rose"
 
 "comment" = "elephant"
@@ -67,7 +67,7 @@
 # "function.macro"
 # "function.special"
 
-"tag" = "salmon"
+"tag" = "rose"
 # "tag.builtin"
 
 "namespace" = "salmon"
@@ -93,15 +93,15 @@
 # "markup.list.numbered"
 # "markup.list.checked"
 # "markup.list.unchecked"
-"markup.bold" = { fg = "honeycomb", modifiers = ["bold"] }
-"markup.italic" = { fg = "honeycomb", modifiers = ["italic"] }
-"markup.strikethrough" = { fg = "honeycomb", modifiers = ["crossed_out"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
 # "markup.link"
-"markup.link.url" = { fg = "barbie", underline.style = "line" }
-"markup.link.label" = "sour_apple"
+"markup.link.url" = { fg = "salmon", modifiers = ["italic"], underline.style = "line" }
+"markup.link.label" = "salmon"
 "markup.link.text" = "creamsicle"
 "markup.quote" = "lilac"
-"markup.raw" = "cherry"
+"markup.raw" = "sour_apple"
 # "markup.raw.inline"
 # "markup.raw.inline.completion"
 # "markup.raw.inline.hover"
