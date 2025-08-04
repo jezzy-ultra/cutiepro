@@ -21,7 +21,7 @@
 "string.special" = "pistachio"
 "string.special.path" = { fg = "salmon", underline.style = "line" }
 "string.special.url" = { fg = "salmon", underline.style = "line" }
-# "string.special.symbol" = "rose"
+# "string.special.symbol" = "strawberry"
 
 "comment" = "elephant"
 # "comment.line"
@@ -37,14 +37,14 @@
 # "variable.other.member"
 # "variable.other.member.private"
 
-"label" = "barbie"
+"label" = "princess"
 
 "punctuation" = "honeycomb"
 # "punctuation.delimiter"
 # "punctuation.bracket"
-"punctuation.special" = "rose"
+"punctuation.special" = "strawberry"
 
-"keyword" = "rose"
+"keyword" = "strawberry"
 # "keyword.control"
 # "keyword.control.conditional"
 # "keyword.control.repeat"
@@ -67,7 +67,7 @@
 # "function.macro"
 # "function.special"
 
-"tag" = "rose"
+"tag" = "strawberry"
 # "tag.builtin"
 
 "namespace" = "salmon"
@@ -110,7 +110,7 @@
 # "diff"
 "diff.plus" = "sour_apple"
 # "diff.plus.gutter"
-"diff.minus" = "rose"
+"diff.minus" = "strawberry"
 # "diff.minus.gutter"
 "diff.delta" = "sky"
 "diff.delta.moved" = "creamsicle"
@@ -130,8 +130,8 @@
 "ui.cursor.primary.insert" = { bg = "sour_apple", fg = "blackboard" }
 "ui.cursor.primary.select" = { bg = "sky", fg = "blackboard" }
 
-"ui.debug.breakpoint" = "barbie"
-"ui.debug.active" = "barbie"
+"ui.debug.breakpoint" = "princess"
+"ui.debug.active" = "princess"
 
 # "ui.gutter"
 # "ui.gutter.selected"
@@ -139,7 +139,7 @@
 "ui.linenr" = "elephant"
 "ui.linenr.selected" = { fg = "cherry_blossom", modifiers = ["bold"] }
 
-"ui.statusline" = { bg = "film", fg = "chalk" }
+"ui.statusline" = { bg = "noir", fg = "chalk" }
 "ui.statusline.inactive" = { modifiers = ["dim"] }
 "ui.statusline.normal" = { bg = "cherry_blossom", fg = "blackboard" }
 "ui.statusline.insert" = { bg = "sour_apple", fg = "blackboard" }
@@ -150,8 +150,8 @@
 "ui.bufferline.active" = { fg = "cherry_blossom", underline.style = "line" }
 "ui.bufferline.background" = { bg = "blackboard" }
 
-"ui.popup" = { bg = "film" }
-"ui.popup.info" = { bg = "film", fg = "creamsicle" }
+"ui.popup" = { bg = "noir" }
+"ui.popup.info" = { bg = "noir", fg = "creamsicle" }
 
 # "ui.picker.header"
 # "ui.picker.header.column"
@@ -159,7 +159,7 @@
 
 "ui.window" = "cherry_blossom"
 
-"ui.help" = { fg = "honeycomb", bg = "film" }
+"ui.help" = { fg = "honeycomb", bg = "noir" }
 
 "ui.text" = "chalk"
 "ui.text.focus" = { bg = "metal" }
@@ -176,7 +176,7 @@
 "ui.virtual.wrap" = "elephant"
 "ui.virtual.jump-label" = { fg = "lemon", modifiers = ["bold", "italic"] }
 
-"ui.menu" = { bg = "film" }
+"ui.menu" = { bg = "noir" }
 "ui.menu.selected" = { fg = "cherry_blossom", modifiers = ["bold"], underline.style = "line" }
 "ui.menu.scroll" = "cherry_blossom"
 
@@ -193,7 +193,7 @@
 # "ui.cursorcolumn.secondary"
 
 "warning" = "creamsicle"
-"error" = "rose"
+"error" = "strawberry"
 "info" = "lilac"
 "hint" = "chalk"
 
@@ -201,7 +201,7 @@
 "diagnostic.hint" = { underline = { color = "chalk", style = "curl" } }
 "diagnostic.info" = { underline = { color = "lilac", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "creamsicle", style = "curl" } }
-"diagnostic.error" = { underline = { color = "rose", style = "curl" } }
+"diagnostic.error" = { underline = { color = "strawberry", style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
@@ -211,7 +211,7 @@
 # shades of gray and supporting colors
 blackboard = "#181716"
 metal = "#242628"
-film = "#2e2a27"
+noir = "#2e2a27"
 liquorice = "#383838"
 ocean = "#0f3f4e"
 elephant = "#88847f"
@@ -219,9 +219,9 @@ chalk = "#d5d0c9"
 lemon = "#ffef43"
 
 # accent colors
-rose = "#f56e7f"
+strawberry = "#f56e7f"
 cherry_blossom = "#e5a1a3"
-barbie = "#f57bf2"
+princess = "#f57bf2"
 lilac = "#c69ed1"
 sky = "#80c5de"
 pistachio = "#9ed7b5"
