@@ -18,7 +18,7 @@
 
 "string" = "sour_apple"
 "string.regexp" = "lilac"
-"string.special" = "pistachio"
+"string.special" = "salmon"
 "string.special.path" = { fg = "salmon", underline.style = "line" }
 "string.special.url" = { fg = "salmon", underline.style = "line" }
 # "string.special.symbol" = "strawberry"
@@ -72,7 +72,7 @@
 
 "namespace" = "salmon"
 
-"special" = "pistachio"
+"special" = "princess"
 
 # "markup"
 # "markup.normal"
@@ -221,11 +221,11 @@ lemon = "#ffef43"
 # accent colors
 strawberry = "#f56e7f"
 cherry_blossom = "#e5a1a3"
-princess = "#f57bf2"
-lilac = "#c69ed1"
-sky = "#80c5de"
-pistachio = "#9ed7b5"
+princess = "#ef64b3"
+lilac = "#bc96c7"
+sky = "#92bbc9"
+pistachio = "#8dc0a1"
 sour_apple = "#bec975"
-honeycomb = "#e8d6a7"
+honeycomb = "#dfcfa3"
 creamsicle = "#f3b061"
 salmon = "#f58669"
