@@ -18,10 +18,10 @@
 
 "string" = "sour_apple"
 "string.regexp" = "lilac"
-"string.special" = "salmon"
-"string.special.path" = { fg = "salmon", underline.style = "line" }
-"string.special.url" = { fg = "salmon", underline.style = "line" }
-# "string.special.symbol" = "strawberry"
+"string.special" = "indigo"
+"string.special.path" = "cyan"
+"string.special.url" = { fg = "cyan", underline.style = "line" }
+"string.special.symbol" = "indigo"
 
 "comment" = "elephant"
 # "comment.line"
@@ -37,7 +37,7 @@
 # "variable.other.member"
 # "variable.other.member.private"
 
-"label" = "princess"
+"label" = "green"
 
 "punctuation" = "honeycomb"
 # "punctuation.delimiter"
@@ -67,12 +67,12 @@
 # "function.macro"
 # "function.special"
 
-"tag" = "strawberry"
+"tag" = "salmon"
 # "tag.builtin"
 
 "namespace" = "salmon"
 
-"special" = "princess"
+"special" = "pink"
 
 # "markup"
 # "markup.normal"
@@ -97,10 +97,10 @@
 "markup.italic" = { modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 # "markup.link"
-"markup.link.url" = { fg = "salmon", modifiers = ["italic"], underline.style = "line" }
-"markup.link.label" = "salmon"
-"markup.link.text" = "creamsicle"
-"markup.quote" = "lilac"
+"markup.link.url" = { fg = "cyan", underline.style = "line" }
+"markup.link.label" = "cyan"
+"markup.link.text" = "lilac"
+"markup.quote" = "elephant"
 "markup.raw" = "sour_apple"
 # "markup.raw.inline"
 # "markup.raw.inline.completion"
@@ -130,8 +130,8 @@
 "ui.cursor.primary.insert" = { bg = "sour_apple", fg = "blackboard" }
 "ui.cursor.primary.select" = { bg = "sky", fg = "blackboard" }
 
-"ui.debug.breakpoint" = "princess"
-"ui.debug.active" = "princess"
+"ui.debug.breakpoint" = "pink"
+"ui.debug.active" = "pink"
 
 # "ui.gutter"
 # "ui.gutter.selected"
@@ -165,25 +165,27 @@
 "ui.text.focus" = { bg = "metal" }
 "ui.text.inactive" = { fg = "elephant" }
 "ui.text.info" = "honeycomb"
+# "ui.text.directory" = "creamsicle"
 "ui.text.directory" = "creamsicle"
 
 "ui.virtual.ruler" = "elephant"
 "ui.virtual.whitespace" = "elephant"
 "ui.virtual.indent-guide" = "noir"
-"ui.virtual.inlay-hint" = { fg = "elephant", modifiers = ["dim"] }
+"ui.virtual.inlay-hint" = { fg = "gray", modifiers = ["italic"] }
 # "ui.virtual.inlay-hint.parameter"
 # "ui.virtual.inlay-hint.type"
 "ui.virtual.wrap" = "elephant"
 "ui.virtual.jump-label" = { fg = "lemon", modifiers = ["bold", "italic"] }
 
+# FIXME
 "ui.menu" = { bg = "noir" }
-"ui.menu.selected" = { fg = "cherry_blossom", modifiers = ["bold"], underline.style = "line" }
-"ui.menu.scroll" = "cherry_blossom"
+"ui.menu.selected" = { fg = "cherry_blossom", modifiers = ["bold"], underline = { color = "cherry_blossom", style = "line" } }
+"ui.menu.scroll" = { bg = "noir", fg = "cherry_blossom" }
 
 "ui.selection" = { bg = "liquorice" }
 "ui.selection.primary" = { bg = "ocean" }
 
-"ui.highlight" = { bg = "ocean" }
+"ui.highlight" = { bg = "metal" }
 # "ui.highlight.frameline"
 
 "ui.cursorline.primary" = { bg = "metal" }
@@ -192,10 +194,10 @@
 "ui.cursorcolumn.primary" = { bg = "metal" }
 # "ui.cursorcolumn.secondary"
 
-"warning" = "creamsicle"
-"error" = "strawberry"
-"info" = "lilac"
-"hint" = "chalk"
+"warning" = { bg = "noir", fg = "creamsicle" }
+"error" = { bg = "noir", fg = "strawberry" }
+"info" = { bg = "noir", fg = "lilac" }
+"hint" = { bg = "noir", fg = "chalk" }
 
 "diagnostic" = { underline = { color = "chalk", style = "curl" } }
 "diagnostic.hint" = { underline = { color = "chalk", style = "curl" } }
@@ -205,7 +207,7 @@
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
-"tabstop" = { modifiers = ["italic"] }
+# "tabstop" = { modifiers = ["italic"] }
 
 [palette]
 # shades of gray and supporting colors
@@ -215,17 +217,22 @@ noir = "#2e2a27"
 liquorice = "#383838"
 ocean = "#0f3f4e"
 elephant = "#88847f"
-chalk = "#d5d0c9"
+chalk = "#d3ccba"
 lemon = "#ffef43"
 
 # accent colors
 strawberry = "#f56e7f"
 cherry_blossom = "#e5a1a3"
-princess = "#ef64b3"
 lilac = "#bc96c7"
 sky = "#92bbc9"
-pistachio = "#8dc0a1"
 sour_apple = "#bec975"
 honeycomb = "#dfcfa3"
 creamsicle = "#f3b061"
 salmon = "#f58669"
+
+pink = "#ed83bb"
+indigo = "#9c9de4"
+cyan = "#7cbda1"
+# green = "#78dd6c"
+green = "#7ac973"
+gray = "#73665b"
