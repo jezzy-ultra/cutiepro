@@ -288,7 +288,7 @@ princess = "#ed83bb"
 pond = "#7cbda1"
 
 # ANSI 15 (bright white), foreground, selection background (terminal only)
-chalk = "#d3ccba"
+chalk = "#d5d0c9"
 
 #
 ## Supporting colors

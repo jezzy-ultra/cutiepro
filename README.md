@@ -28,7 +28,7 @@ this repo contains a collection of color scheme configuration files for various 
 | ![bright blue](assets/circles/bright-blue.svg)       | blueberry      | `#9c9de4` | ansi 12 (bright blue)                                    | special strings               |                            |
 | ![bright magenta](assets/circles/bright-magenta.svg) | princess       | `#ed83bb` | ansi 13 (bright magenta)                                 | special                       |                            |
 | ![bright cyan](assets/circles/bright-cyan.svg)       | pond           | `#7cbda1` | ansi 14 (bright cyan), url underlines                    | urls/paths                    |                            |
-| ![bright white](assets/circles/bright-white.svg)     | chalk          | `#d3ccba` | ansi 15 (bright white), foreground, selection background |                               | default text, hints        |
+| ![bright white](assets/circles/bright-white.svg)     | chalk          | `#d5d0c9` | ansi 15 (bright white), foreground, selection background |                               | default text, hints        |
 | ![background](assets/circles/background.svg)         | metal          | `#242628` |                                                          |                               | line highlighting          |
 | ![foreground](assets/circles/foreground.svg)         | film           | `#2e2a27` |                                                          |                               | secondary background       |
 | ![selection](assets/circles/selection.svg)           | ocean          | `#0f3f4e` |                                                          |                               | primary selection          |
