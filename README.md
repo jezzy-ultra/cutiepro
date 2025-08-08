@@ -5,35 +5,35 @@
 
 ## *fearlessly feminine*
 
-tired of drab schemes? after failing to find a theme that resonated with me, I decided
-to make my own. meet **cutiepro**, a dark pastel theme emphasizing warm colors and
-extraordinarily cute, girly vibes ♡
+tired of drab schemes? after failing to find a theme that resonated with me, I decided to make my own. meet **cutiepro**, a dark pastel theme emphasizing warm colors and extraordinarily cute, girly vibes ♡
 
 this repo contains a collection of color scheme configuration files for various terminals and applications. also check out the [plugin for JetBrains IDEs](https://github.com/jezziewezzie/cutiepro-IntelliJ/)!
 
 ### palette
 
-|                                                      | name                       |    hex    |
-|:----------------------------------------------------:|----------------------------|:---------:|
-|          ![black](assets/circles/black.svg)          | `Ansi 0`  — black          | `#000000` |
-|            ![red](assets/circles/red.svg)            | `Ansi 1`  — red            | `#f56e7f` |
-|          ![green](assets/circles/green.svg)          | `Ansi 2`  — green          | `#bec975` |
-|         ![yellow](assets/circles/yellow.svg)         | `Ansi 3`  — yellow         | `#f58669` |
-|           ![blue](assets/circles/blue.svg)           | `Ansi 4`  — blue           | `#42d9c5` |
-|        ![magenta](assets/circles/magenta.svg)        | `Ansi 5`  — magenta        | `#d286b7` |
-|           ![cyan](assets/circles/cyan.svg)           | `Ansi 6`  — cyan           | `#37cb8a` |
-|          ![white](assets/circles/white.svg)          | `Ansi 7`  — white          | `#88847f` |
-|   ![bright black](assets/circles/bright-black.svg)   | `Ansi 8`  — bright black   | `#2e2a27` |
-|     ![bright red](assets/circles/bright-red.svg)     | `Ansi 9`  — bright red     | `#e5a1a3` |
-|   ![bright green](assets/circles/bright-green.svg)   | `Ansi 10` — bright green   | `#e8d6a7` |
-|  ![bright yellow](assets/circles/bright-yellow.svg)  | `Ansi 11` — bright yellow  | `#f3b061` |
-|    ![bright blue](assets/circles/bright-blue.svg)    | `Ansi 12` — bright blue    | `#80c5de` |
-| ![bright magenta](assets/circles/bright-magenta.svg) | `Ansi 13` — bright magenta | `#c3a6cb` |
-|    ![bright cyan](assets/circles/bright-cyan.svg)    | `Ansi 14` — bright cyan    | `#9ed7a8` |
-|   ![bright white](assets/circles/bright-white.svg)   | `Ansi 15` — bright white   | `#d7c3ba` |
-|     ![background](assets/circles/background.svg)     | background                 | `#181818` |
-|     ![foreground](assets/circles/foreground.svg)     | foreground                 | `#d5d0c9` |
-|      ![selection](assets/circles/selection.svg)      | selection                  | `#383838` |
+|                                                      | name           | hex       | terminal                                                 | syntax                        | ui                         |
+| :---:                                                | :---           | :---:     | :---                                                     | :---                          | :---                       |
+| ![black](assets/circles/black.svg)                   | blackboard     | `#181617` | ansi 00 (black), background, selection foreground        |                               | primary background         |
+| ![red](assets/circles/red.svg)                       | strawberry     | `#f56e7f` | ansi 01 (red)                                            | keywords, special punctuation | errors, diff minus         |
+| ![green](assets/circles/green.svg)                   | sour_apple     | `#bec975` | ansi 02 (green)                                          | strings, raw (markup)         | diff plus                  |
+| ![yellow](assets/circles/yellow.svg)                 | honeycomb      | `#dfcfa3` | ansi 03 (yellow)                                         | operators, punctuation        | secondary accent           |
+| ![blue](assets/circles/blue.svg)                     | violet         | `#bea2c6` | ansi 04 (blue)                                           | functions                     | info                       |
+| ![magenta](assets/circles/magenta.svg)               | cherry_blossom | `#e5a1a3` | ansi 05 (magenta), cursor                                | variables, headings (markup)  | primary accent             |
+| ![cyan](assets/circles/cyan.svg)                     | sky            | `#92bbc9` | ansi 06 (cyan)                                           | constants, lists (markup)     | diff delta                 |
+| ![white](assets/circles/white.svg)                   | elephant       | `#88847f` | ansi 07 (white)                                          | comments, quotes (markup)     | light gray                 |
+| ![bright black](assets/circles/bright-black.svg)     | soil           | `#73665b` | ansi 08 (bright black)                                   |                               | inlay hints                |
+| ![bright red](assets/circles/bright-red.svg)         | salmon         | `#f58669` | ansi 09 (bright red)                                     | namespaces, tags              |                            |
+| ![bright green](assets/circles/bright-green.svg)     | leaf           | `#7ac973` | ansi 10 (bright green)                                   | labels                        |                            |
+| ![bright yellow](assets/circles/bright-yellow.svg)   | creamsicle     | `#f3b061` | ansi 11 (bright yellow)                                  | types, attributes             | tertiary accent            |
+| ![bright blue](assets/circles/bright-blue.svg)       | blueberry      | `#9c9de4` | ansi 12 (bright blue)                                    | special strings               |                            |
+| ![bright magenta](assets/circles/bright-magenta.svg) | princess       | `#ed83bb` | ansi 13 (bright magenta)                                 | special                       |                            |
+| ![bright cyan](assets/circles/bright-cyan.svg)       | pond           | `#7cbda1` | ansi 14 (bright cyan), url underlines                    | urls/paths                    |                            |
+| ![bright white](assets/circles/bright-white.svg)     | chalk          | `#d3ccba` | ansi 15 (bright white), foreground, selection background |                               | default text, hints        |
+| ![background](assets/circles/background.svg)         | metal          | `#242628` |                                                          |                               | line highlighting          |
+| ![foreground](assets/circles/foreground.svg)         | film           | `#2e2a27` |                                                          |                               | secondary background       |
+| ![selection](assets/circles/selection.svg)           | ocean          | `#0f3f4e` |                                                          |                               | primary selection          |
+|                                                      | concrete       | `#383838` |                                                          |                               | secondary selection        |
+|                                                      | lemon          | `#ffef43` |                                                          |                               | high contrast highlighting |
 
 ## supported apps
 - [Alacritty](https://github.com/alacritty/alacritty/)
