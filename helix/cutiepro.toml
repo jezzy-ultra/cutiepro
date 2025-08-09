@@ -238,7 +238,7 @@ sour_apple = "#bec975"
 # ANSI 03 (yellow)
 # syntax: operators
 # ui: secondary accent
-honeycomb = "#dfcfa3"
+honeycomb = "#e8d6a7"
 
 # ANSI 04 (blue)
 # syntax: functions

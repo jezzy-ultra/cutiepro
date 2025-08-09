@@ -16,7 +16,7 @@ this repo contains a collection of color scheme configuration files for various 
 | ![black](assets/circles/black.svg)                   | blackboard     | `#181617` | ansi 00 (black), background, selection foreground        |                               | primary background         |
 | ![red](assets/circles/red.svg)                       | strawberry     | `#f56e7f` | ansi 01 (red)                                            | keywords, special punctuation | errors, diff minus         |
 | ![green](assets/circles/green.svg)                   | sour_apple     | `#bec975` | ansi 02 (green)                                          | strings, raw (markup)         | diff plus                  |
-| ![yellow](assets/circles/yellow.svg)                 | honeycomb      | `#dfcfa3` | ansi 03 (yellow)                                         | operators, punctuation        | secondary accent           |
+| ![yellow](assets/circles/yellow.svg)                 | honeycomb      | `#e8d6a7` | ansi 03 (yellow)                                         | operators, punctuation        | secondary accent           |
 | ![blue](assets/circles/blue.svg)                     | violet         | `#bea2c6` | ansi 04 (blue)                                           | functions                     | info                       |
 | ![magenta](assets/circles/magenta.svg)               | cherry_blossom | `#e5a1a3` | ansi 05 (magenta), cursor                                | variables, headings (markup)  | primary accent             |
 | ![cyan](assets/circles/cyan.svg)                     | sky            | `#92bbc9` | ansi 06 (cyan)                                           | constants, lists (markup)     | diff delta                 |
