@@ -159,7 +159,8 @@ Windows = "󰍲 "
 disabled = false
 style_user = "bg:strawberry fg:blackboard"
 style_root = "bg:strawberry fg:blackboard bold italic"
-format = "[  $user ]($style)"
+format = "[]($style)[  $user ]($style)"
+# format = "[  $user ]($style)"
 # show_always = false
 show_always = true
 
@@ -167,7 +168,7 @@ show_always = true
 disabled = false
 ssh_symbol = " "
 style = "bg:strawberry fg:blackboard"
-format = "[ $ssh_symbol$hostname ]($style)"
+format = "[]($style)[ $ssh_symbol$hostname ]($style)"
 ssh_only = true
 # ssh_only = false
 trim_at = ""
@@ -183,21 +184,22 @@ ssh_only = true
 disabled = false
 symbol = " "
 style = "bg:strawberry fg:blackboard"
-format = '[ $symbol \[$name\] ]($style)'
+format = '[]($style)[ $symbol \[$name\] ]($style)'
 
 [directory]
 disabled = false
 truncation_symbol = "…/"
-read_only = "󰌾 "
+read_only = "󰌾"
 home_symbol = ' '
 style = "bg:cherry_blossom fg:blackboard bold"
 read_only_style = "bg:cherry_blossom fg:blackboard bold"
 before_repo_root_style = "bg:cherry_blossom fg:soil"
 repo_root_style = "bg:cherry_blossom fg:blackboard bold"
 format = "[ $path( $read_only) ]($style)"
-repo_root_format = "[  $repo_root]($repo_root_style)[$path ]($style)([$read_only ]($read_only_style))"
+repo_root_format = "[  $repo_root]($repo_root_style)[$path ]($style)([$read_only]($read_only_style))"
 use_os_path_sep = false
 truncation_length = 5
+# path_sep = "  "
 
 [directory.substitutions]
 # '/' = '  '
@@ -232,7 +234,7 @@ tag_max_candidates = 0  # exact matches only
 [git_status]
 disabled = false
 style = "bg:honeycomb fg:blackboard"
-format = '[$ahead_behind ( $all_status)]($style)'
+format = '[$ahead_behind ($all_status)]($style)'
 up_to_date = "🗸"
 ahead = "↑${count}"
 behind = "↓${count}"
@@ -261,7 +263,7 @@ ignore_submodules = false
 [git_state]
 disabled = false
 style = "bg:honeycomb fg:blackboard"
-format = "[ $state( $progress_current/$progress_total) ]($style)"
+format = "[$state( $progress_current/$progress_total) ]($style)"
 rebase = "󰑐 "
 merge = "󰽜 "
 revert = "󰌥 "
