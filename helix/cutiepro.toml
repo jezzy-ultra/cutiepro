@@ -1,16 +1,9 @@
-#
-## Syntax highlighting
-#
-
 "attribute" = "creamsicle"
-
 "type" = "creamsicle"
 # "type.builtin"
 # "type.enum"
 # "type.enum.variant" = "cherry_blossom"
-
 "constructor" = "violet"
-
 "constant" = "sky"
 # "constant.builtin"
 # "constant.builtin.boolean"
@@ -19,35 +12,29 @@
 # "constant.numeric"
 # "constant.numeric.integer"
 # "constant.numeric.float"
-
 "string" = "sour_apple"
 "string.regexp" = "violet"
 "string.special" = "blueberry"
 "string.special.path" = "pond"
 "string.special.url" = { fg = "pond", underline.style = "line" }
 "string.special.symbol" = "blueberry"
-
 "comment" = "elephant"
 # "comment.line"
 # "comment.line.documentation"
 # "comment.block"
 # "comment.block.documentation"
 # "comment.unused"
-
 "variable" = "cherry_blossom"
 # "variable.builtin"
 # "variable.parameter"
 # "variable.other"
 # "variable.other.member"
 # "variable.other.member.private"
-
 "label" = "leaf"
-
 "punctuation" = "honeycomb"
 # "punctuation.delimiter"
 # "punctuation.bracket"
 "punctuation.special" = "strawberry"
-
 "keyword" = "strawberry"
 # "keyword.control"
 # "keyword.control.conditional"
@@ -61,23 +48,17 @@
 # "keyword.storage"
 # "keyword.storage.type"
 # "keyword.storage.modifier"
-
 "operator" = "honeycomb"
-
 "function" = "violet"
 # "function.builtin"
 # "function.method"
 # "function.method.private"
 # "function.macro"
 # "function.special"
-
 "tag" = "salmon"
 # "tag.builtin"
-
 "namespace" = "salmon"
-
 "special" = "princess"
-
 # "markup"
 # "markup.normal"
 # "markup.normal.completion"
@@ -110,7 +91,6 @@
 # "markup.raw.inline.completion"
 # "markup.raw.inline.hover"
 # "markup.raw.block"
-
 # "diff"
 "diff.plus" = "sour_apple"
 # "diff.plus.gutter"
@@ -120,62 +100,45 @@
 "diff.delta.moved" = "creamsicle"
 "diff.delta.conflict" = "violet"
 # "diff.delta.gutter"
-
-#
-## UI colors
-#
-
 "ui.background" = { bg = "blackboard" }
 "ui.background.separator" = "cherry_blossom"
-
-"ui.cursor" = { bg = "chalk", fg = "blackboard" }
+"ui.cursor" = { bg = "soil", fg = "chalk" }
 # "ui.cursor.normal"
 # "ui.cursor.insert"
 # "ui.cursor.select"
 "ui.cursor.match" = { fg = "lemon", modifiers = ["bold"], underline.style = "line" }
-"ui.cursor.primary" = { fg = "blackboard" }
+# "ui.cursor.primary"
 "ui.cursor.primary.normal" = { bg = "cherry_blossom", fg = "blackboard" }
 "ui.cursor.primary.insert" = { bg = "sour_apple", fg = "blackboard" }
 "ui.cursor.primary.select" = { bg = "sky", fg = "blackboard" }
-
 "ui.debug.breakpoint" = "princess"
 "ui.debug.active" = "princess"
-
 # "ui.gutter"
 # "ui.gutter.selected"
-
 "ui.linenr" = "elephant"
 "ui.linenr.selected" = { fg = "cherry_blossom", modifiers = ["bold"] }
-
 "ui.statusline" = { bg = "film", fg = "chalk" }
 "ui.statusline.inactive" = { modifiers = ["dim"] }
 "ui.statusline.normal" = { bg = "cherry_blossom", fg = "blackboard" }
 "ui.statusline.insert" = { bg = "sour_apple", fg = "blackboard" }
 "ui.statusline.select" = { bg = "sky", fg = "blackboard" }
 "ui.statusline.separator" = { modifiers = ["bold"] }
-
 "ui.bufferline" = { fg = "elephant" }
 "ui.bufferline.active" = { fg = "cherry_blossom", underline.style = "line" }
 "ui.bufferline.background" = { bg = "blackboard" }
-
 "ui.popup" = { bg = "film" }
 "ui.popup.info" = { bg = "film", fg = "creamsicle" }
-
 # "ui.picker.header"
 # "ui.picker.header.column"
 "ui.picker.header.column.active" = { modifiers = ["bold"], underline = { color = "cherry_blossom", style = "line" } }
-
 "ui.window" = "cherry_blossom"
-
 "ui.help" = { fg = "honeycomb", bg = "film" }
-
 "ui.text" = "chalk"
 "ui.text.focus" = { bg = "metal" }
 "ui.text.inactive" = { fg = "elephant" }
 "ui.text.info" = "honeycomb"
 # "ui.text.directory" = "creamsicle"
 "ui.text.directory" = "creamsicle"
-
 "ui.virtual.ruler" = "elephant"
 "ui.virtual.whitespace" = "elephant"
 "ui.virtual.indent-guide" = "film"
@@ -184,29 +147,22 @@
 # "ui.virtual.inlay-hint.type"
 "ui.virtual.wrap" = "elephant"
 "ui.virtual.jump-label" = { fg = "lemon", modifiers = ["bold", "italic"] }
-
-# FIXME
 "ui.menu" = { bg = "film" }
 "ui.menu.selected" = { fg = "cherry_blossom", modifiers = ["bold"], underline = { color = "cherry_blossom", style = "line" } }
 "ui.menu.scroll" = { bg = "film", fg = "cherry_blossom" }
-
 "ui.selection" = { bg = "concrete" }
 "ui.selection.primary" = { bg = "ocean" }
 
 "ui.highlight" = { bg = "metal" }
 # "ui.highlight.frameline"
-
 "ui.cursorline.primary" = { bg = "metal" }
 # "ui.cursorline.secondary"
-
 "ui.cursorcolumn.primary" = { bg = "metal" }
 # "ui.cursorcolumn.secondary"
-
 "warning" = { bg = "film", fg = "creamsicle" }
 "error" = { bg = "film", fg = "strawberry" }
 "info" = { bg = "film", fg = "violet" }
 "hint" = { bg = "film", fg = "chalk" }
-
 "diagnostic" = { underline = { color = "chalk", style = "curl" } }
 "diagnostic.hint" = { underline = { color = "chalk", style = "curl" } }
 "diagnostic.info" = { underline = { color = "violet", style = "curl" } }
@@ -214,65 +170,20 @@
 "diagnostic.error" = { underline = { color = "strawberry", style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
-
 # "tabstop" = { modifiers = ["italic"] }
 
 [palette]
-#
-## Main colors
-# Each correspond to an ANSI color used in the terminal theme.
-#
-
-# ANSI 00 (black), background, selection foreground (terminal only)
 blackboard = "#181716"
-
-# ANSI 01 (red)
-# syntax: keywords
-# ui: errors
 strawberry = "#f56e7f"
-
-# ANSI 02 (green)
-# syntax: strings
 sour_apple = "#bec975"
-
-# ANSI 03 (yellow)
-# syntax: operators
-# ui: secondary accent
 honeycomb = "#e8d6a7"
-
-# ANSI 04 (blue)
-# syntax: functions
 violet = "#bea2c6"
-
-# ANSI 05 (magenta), cursor
-# syntax: variables
-# ui: primary accent
 cherry_blossom = "#e5a1a3"
-
-# ANSI 06 (cyan)
-# syntax: constants
 sky = "#92bbc9"
-
-# ANSI 07 (white)
-# syntax: comments
-# ui: gray
 elephant = "#88847f"
-
-# ANSI 08 (bright black)
-# ui: inlay hints
 soil = "#73665b"
-
-# ANSI 09 (bright red)
-# syntax: namespaces, tags
 salmon = "#f58669"
-
-# ANSI 10 (bright green)
-# syntax: labels
 leaf = "#7ac973"
-
-# ANSI 11 (bright yellow)
-# syntax: types, attributes
-# ui: tertiary accent, warnings
 creamsicle = "#f3b061"
 
 # ANSI 12 (bright blue)
@@ -289,19 +200,8 @@ pond = "#7cbda1"
 
 # ANSI 15 (bright white), foreground, selection background (terminal only)
 chalk = "#d5d0c9"
-
-#
-## Supporting colors
-# Additional colors not used in the terminal theme.
-#
-
-# ui: line highlighting
 metal = "#242628"
-# ui: brighter background
 film = "#2e2a27"
-# ui: primary selection
 ocean = "#0f3f4e"
-# ui: secondary selections
 concrete = "#383838"
-# ui: high contrast highlighting
 lemon = "#ffef43"
