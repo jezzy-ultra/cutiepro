@@ -3,65 +3,19 @@ add_newline = true
 follow_symlinks = true
 format = """
 (\
-[](strawberry)\
-$os\
-[](strawberry)\
-(\
-[](strawberry)\
-$username\
-[](strawberry)\
+([](strawberry)$os$username$hostname$localip$netns[](strawberry))\
 )\
 (\
-[](strawberry)\
-$hostname\
-$localip\
-[](strawberry)\
+([](cherry_blossom)$directory[](cherry_blossom))\
 )\
 (\
-[](strawberry)\
-$netns\
-[](strawberry)\
-)\
-)\
-(\
-[](cherry_blossom)\
-$directory\
-[](cherry_blossom)\
+([](honeycomb)$vcsh[](honeycomb))\
+([](honeycomb)$git_branch$git_commit$git_status$git_metrics$git_state[](honeycomb))\
+([](honeycomb)$hg_branch[](honeycomb))\
+([](honeycomb)$fossil_branch$fossil_metrics[](honeycomb))\
+([](honeycomb)$pijul_channel[](honeycomb))\
 )\
 (\
-(\
-[](honeycomb)\
-$vcsh\
-[](honeycomb)\
-)\
-(\
-[](honeycomb)\
-$git_branch\
-$git_commit\
-$git_state\
-$git_status\
-$git_metrics\
-[](honeycomb)\
-)\
-(\
-[](honeycomb)\
-$hg_branch\
-[](honeycomb)\
-)\
-(\
-[](honeycomb)\
-$fossil_branch\
-$fossil_metrics\
-[](honeycomb)\
-)\
-(\
-[](honeycomb)\
-$pijul_channel\
-[](honeycomb)\
-)\
-)\
-(\
-([](sour_apple)$package[](sour_apple))\
 ([](sour_apple)$bun[](sour_apple))\
 ([](sour_apple)$deno[](sour_apple))\
 ([](sour_apple)$nodejs[](sour_apple))\
@@ -111,6 +65,9 @@ $pijul_channel\
 ([](sour_apple)$zig[](sour_apple))\
 )\
 (\
+([](pond)$package[](pond))\
+)\
+(\
 ([](sky)$singularity[](sky))\
 ([](sky)$kubernetes[](sky))\
 ([](sky)$docker_context[](sky))\
@@ -133,40 +90,17 @@ $pijul_channel\
 )\
 $fill\
 (\
-[](salmon)\
-$status\
-[](salmon) \
-)\
-(\
-[](creamsicle)\
-$battery\
-[](creamsicle) \
-)\
-(\
-[](creamsicle)\
-$memory_usage\
-[](creamsicle) \
-)\
-(\
-[](creamsicle)\
-$sudo\
-$shell\
-$jobs\
-[](creamsicle) \
-)\
-(\
-[](blueberry)\
-$cmd_duration\
-[](blueberry) \
-)\
-(\
-[](violet)\
-$time\
-[](violet)\
+([](salmon)$status[](salmon) )\
+([](princess)$battery[](princess) )\
+([](creamsicle)$memory_usage[](creamsicle) )\
+([](princess)$sudo[](princess) )\
+([](creamsicle)$shell[](creamsicle) )\
+([](creamsicle)$jobs[](creamsicle) )\
+([](blueberry)$cmd_duration[](blueberry) )\
+([](violet)$time[](violet))\
 )\
 $line_break\
-$shlvl\
-$character
+$shlvl$character
 """
 
 [os]
@@ -225,15 +159,15 @@ Windows = "󰍲 "
 disabled = false
 style_user = "bg:strawberry fg:blackboard"
 style_root = "bg:strawberry fg:blackboard bold italic"
-format = "[  $user ]($style)"
-show_always = false
-# show_always = true
+format = "[  $user ]($style)"
+# show_always = false
+show_always = true
 
 [hostname]
 disabled = false
 ssh_symbol = " "
 style = "bg:strawberry fg:blackboard"
-format = "[ $ssh_symbol$hostname ]($style)"
+format = "[ $ssh_symbol$hostname ]($style)"
 ssh_only = true
 # ssh_only = false
 trim_at = ""
@@ -249,22 +183,20 @@ ssh_only = true
 disabled = false
 symbol = " "
 style = "bg:strawberry fg:blackboard"
-format = '[ $symbol \[$name\] ]($style)'
+format = '[ $symbol \[$name\] ]($style)'
 
 [directory]
 disabled = false
 truncation_symbol = "…/"
 read_only = "󰌾 "
-home_symbol = "~"
-# home_symbol = ' '
-style = "bg:cherry_blossom fg:blackboard"
-read_only_style = "bg:cherry_blossom fg:blackboard"
+home_symbol = ' '
+style = "bg:cherry_blossom fg:blackboard bold"
+read_only_style = "bg:cherry_blossom fg:blackboard bold"
 before_repo_root_style = "bg:cherry_blossom fg:soil"
 repo_root_style = "bg:cherry_blossom fg:blackboard bold"
-format = "[ ($read_only)$path ]($style)"
-repo_root_format = "([$read_only]($read_only_style))[ $before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path ]($style)"
-use_os_path_sep = true
-# use_os_path_sep = false
+format = "[ $path( $read_only) ]($style)"
+repo_root_format = "[  $repo_root]($repo_root_style)[$path ]($style)([$read_only ]($read_only_style))"
+use_os_path_sep = false
 truncation_length = 5
 
 [directory.substitutions]
@@ -272,13 +204,13 @@ truncation_length = 5
 
 [vcsh]
 disabled = false
-symbol = "🆅 "
+symbol = "󰳐 "
 style = "bg:honeycomb fg:blackboard"
 format = "[ $symbol$repo ]($style)"
 
 [git_branch]
 disabled = false
-symbol = " "
+symbol = ""
 truncation_symbol = "…"
 style = "bg:honeycomb fg:blackboard"
 format = "[ $symbol$branch(:$remote_branch) ]($style)"
@@ -288,54 +220,55 @@ only_attached = false
 
 [git_commit]
 disabled = false
-tag_symbol = "  "
+tag_symbol = " "
 style = "bg:honeycomb fg:blackboard"
 format = '[\($hash( $tag)\) ]($style)'
 tag_disabled = false
 only_detached = true
+# only_detached = false
 commit_hash_length = 7
 tag_max_candidates = 0  # exact matches only
 
-[git_state]
-disabled = false
-style = "bg:honeycomb fg:blackboard"
-format = "[$state( $progress_current/$progress_total) ]($style)"
-rebase = "REBASING"
-merge = "MERGING"
-revert = "REVERTING"
-cherry_pick = "CHERRY-PICKING"
-bisect = "BISECTING"
-am = "AM"
-am_or_rebase = "AM/REBASE"
-
 [git_status]
 disabled = false
-style = "bg:honeycomb fg:blackboard bold"
-format = '[\[$all_status$ahead_behind\] ]($style)'
-conflicted = "=${count} "
-ahead = "⇡${count}"
-behind = "⇣${count}"
-diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+style = "bg:honeycomb fg:blackboard"
+format = '[$ahead_behind ( $all_status)]($style)'
 up_to_date = "🗸"
+ahead = "↑${count}"
+behind = "↓${count}"
+diverged = "↑${ahead_count} ↓${behind_count}"
+conflicted = "≠${count} "
 untracked = "?${count} "
-stashed = "$${count} "
+stashed = "\\$${count} "
 modified = "!${count} "
 staged = "+${count} "
 renamed = "»${count} "
-deleted = "✘${count} "
-typechanged = "↔ "
+deleted = "−${count} "
+typechanged = "⇄ "
 ignore_submodules = false
 use_git_executable = false
 # windows_starship = '/mnt/c/...'
 
 [git_metrics]
-disabled = false
 # disabled = true
+disabled = false
 added_style = "bg:honeycomb fg:blackboard"
 deleted_style = "bg:honeycomb fg:blackboard"
-format = "(([+$added ]($added_style))([-$deleted ]($deleted_style)))"
+format = '([\((+$added)( −$deleted)\) ]($added_style))'
 only_nonzero_diffs = true
 ignore_submodules = false
+
+[git_state]
+disabled = false
+style = "bg:honeycomb fg:blackboard"
+format = "[ $state( $progress_current/$progress_total) ]($style)"
+rebase = "󰑐 "
+merge = "󰽜 "
+revert = "󰌥 "
+cherry_pick = " "
+bisect = " "
+am = "󰶈 "
+am_or_rebase = "󰶈 󰜥 󰑐 "
 
 [hg_branch]
 disabled = false
@@ -347,7 +280,7 @@ truncation_symbol = "…"
 
 [fossil_branch]
 disabled = false
-symbol = " "
+symbol = ""
 style = "bg:honeycomb fg:blackboard"
 format = "[ $symbol$branch ]($style)"
 truncation_symbol = "…"
@@ -357,23 +290,16 @@ truncation_symbol = "…"
 disabled = false
 added_style = "bg:honeycomb fg:blackboard"
 deleted_style = "bg:honeycomb fg:blackboard"
-format = "(([+$added ]($added_style))([-$deleted ]($deleted_style)))"
+format = '[\((+$added)( −$deleted)\) ]($added_style)'
 only_nonzero_diffs = true
 
 [pijul_channel]
 disabled = false
-symbol = " "
+symbol = ""
 style = "bg:honeycomb fg:blackboard"
 format = "[ $symbol$channel ]($style)"
 truncation_symbol = "…"
 # truncation_length = 20
-
-[package]
-disabled = false
-symbol = "󰏗 "
-style = "bg:sour_apple fg:blackboard"
-format = "[ $symbol($version) ]($style)"
-display_private = true
 
 [bun]
 disabled = false
@@ -582,8 +508,8 @@ disabled = false
 symbol = " "
 style = "bg:sour_apple fg:blackboard"
 format = '[ $symbol($pyenv_prefix) ($version )(\($virtualenv\) )]($style)'
-pyenv_version_name = true
-# pyenv_version_name = false
+pyenv_version_name = false
+# pyenv_version_name = true
 
 [quarto]
 disabled = false
@@ -651,6 +577,13 @@ symbol = " "
 style = "bg:sour_apple fg:blackboard"
 format = "[ $symbol($version) ]($style)"
 
+[package]
+disabled = false
+symbol = " "
+style = "bg:pond fg:blackboard"
+format = "[ $symbol($version) ]($style)"
+display_private = true
+
 [singularity]
 disabled = false
 symbol = " "
@@ -686,7 +619,7 @@ format = "[ $symbol]($style)"
 disabled = false
 symbol = " "
 style = "bg:sky fg:blackboard"
-format = '[ $symbol$state ]($style)'
+format = "[ $symbol$state ]($style)"
 # heuristic = true
 heuristic = false
 
@@ -766,26 +699,33 @@ disabled = false
 style = "bg:sky fg:blackboard"
 format = "[ $symbol$health ]($style)"
 
+[fill]
+symbol = " "
+
 [status]
 disabled = false
 symbol = " "
 # success_symbol = " "
 not_executable_symbol = " "
 not_found_symbol = " "
-sigint_symbol = " "
-signal_symbol = " "
+sigint_symbol = ""
+signal_symbol = ""
 style = "bg:salmon fg:blackboard bold"
 format = "[$symbol$status]($style)"
 map_symbol = true
 
 [battery]
-disabled = false
+disabled = true
 format = "[$symbol$percentage]($style)"
 
 [[battery.display]]
 threshold = 20
 # threshold = 100
-style = "bg:creamsicle fg:blackboard bold"
+style = "bg:princess fg:blackboard bold"
+
+# [[battery.display]]
+# threshold = 100
+# style = "bg:creamsicle fg:blackboard"
 
 [memory_usage]
 disabled = true
@@ -793,14 +733,14 @@ disabled = true
 symbol = "󰍛 "
 style = "bg:creamsicle fg:blackboard"
 format = "[$symbol$ram( | $swap)]($style)"
-threshold = 75
+threshold = 80
 # threshold = -1
 
 [sudo]
 disabled = false
 symbol = " "
-style = "bg:creamsicle fg:blackboard"
-format = "[$symbol ]($style)"
+style = "bg:princess fg:blackboard"
+format = "[$symbol]($style)"
 
 [shell]
 disabled = true
@@ -817,7 +757,7 @@ format = "[$symbol$number]($style)"
 [cmd_duration]
 disabled = false
 style = "bg:blueberry fg:blackboard"
-format = "[ $duration]($style)"
+format = "[ $duration]($style)"
 show_milliseconds = true
 # min_time = 2_000
 # min_time = 0
@@ -833,7 +773,7 @@ format = "[ $time]($style)"
 
 [shlvl]
 disabled = false
-symbol = "❯"
+symbol = "❥"
 style = "chalk bold"
 format = "[$symbol]($style)"
 repeat = true
@@ -842,12 +782,12 @@ threshold = 0
 
 [character]
 disabled = false
-success_symbol = "[❯](chalk bold)"
-error_symbol = "[❯](chalk bold)"
-vimcmd_symbol = "[❯](cherry_blossom bold)"
-vimcmd_replace_one_symbol = "[❯](violet bold)"
-vimcmd_replace_symbol = "[❯](violet bold)"
-vimcmd_visual_symbol = "[❯](sky bold)"
+success_symbol = "[❥](cherry_blossom bold)"
+error_symbol = "[❥](cherry_blossom bold)"
+vimcmd_symbol = "[❥](cherry_blossom bold)"
+vimcmd_replace_one_symbol = "[❥](violet bold)"
+vimcmd_replace_symbol = "[❥](violet bold)"
+vimcmd_visual_symbol = "[❥](sky bold)"
 
 [palettes.cutiepro]
 blackboard = "#181716"
@@ -862,9 +802,9 @@ soil = "#73665b"
 salmon = "#f58669"
 leaf = "#7ac973"
 creamsicle = "#f3b061"
-blueberry = "#9c9de4"
+blueberry = "#9697e4"
 princess = "#ed83bb"
-pond = "#7cbda1"
+pond = "#63c693"
 chalk = "#d5d0c9"
 metal = "#242628"
 film = "#2e2a27"
