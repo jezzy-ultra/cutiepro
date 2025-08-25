@@ -152,8 +152,7 @@
 "ui.menu.scroll" = { bg = "film", fg = "cherry_blossom" }
 "ui.selection" = { bg = "concrete" }
 "ui.selection.primary" = { bg = "ocean" }
-
-"ui.highlight" = { bg = "metal" }
+"ui.highlight" = { bg = "concrete" }
 # "ui.highlight.frameline"
 "ui.cursorline.primary" = { bg = "metal" }
 # "ui.cursorline.secondary"
@@ -185,20 +184,9 @@ soil = "#73665b"
 salmon = "#f58669"
 leaf = "#7ac973"
 creamsicle = "#f3b061"
-
-# ANSI 12 (bright blue)
-# syntax: special strings
-blueberry = "#9c9de4"
-
-# ANSI 13 (bright magenta)
-# syntax: special
-# ui: debugging
+blueberry = "#9697e4"
 princess = "#ed83bb"
-
-# ANSI 14 (bright cyan), URLs/paths
-pond = "#7cbda1"
-
-# ANSI 15 (bright white), foreground, selection background (terminal only)
+pond = "#63c693"
 chalk = "#d5d0c9"
 metal = "#242628"
 film = "#2e2a27"
