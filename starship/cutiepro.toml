@@ -234,7 +234,7 @@ tag_max_candidates = 0  # exact matches only
 [git_status]
 disabled = false
 style = "bg:honeycomb fg:blackboard"
-format = '[$ahead_behind ($all_status)]($style)'
+format = '[($ahead_behind )($all_status)]($style)'
 up_to_date = "🗸"
 ahead = "↑${count}"
 behind = "↓${count}"
