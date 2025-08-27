@@ -1,0 +1,18 @@
+[submodule "apps/editors/jetbrains"]
+	path = apps/editors/jetbrains
+	url = ../jetbrains.git
+[submodule "apps/cli_tools/fish"]
+	path = apps/cli_tools/fish
+	url = ../fish.git
+[submodule "apps/cli_tools/oh-my-posh"]
+	path = apps/cli_tools/oh-my-posh
+	url = ../oh-my-posh.git
+[submodule "apps/cli_tools/starship"]
+	path = apps/cli_tools/starship
+	url = ../starship.git
+[submodule "apps/editors/helix"]
+	path = apps/editors/helix
+	url = ../helix.git
+[submodule "apps/terminals/kitty"]
+	path = apps/terminals/kitty
+	url = ../kitty.git
