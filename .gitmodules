@@ -16,3 +16,6 @@
 [submodule "kitty"]
 	path = ports/kitty
 	url = ../kitty.git
+[submodule "firefox"]
+	path = ports/firefox
+	url = ../firefox.git
